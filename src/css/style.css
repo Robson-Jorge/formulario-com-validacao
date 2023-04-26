@@ -1,0 +1,92 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+html{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    background-color: #E5E5E5;
+}
+
+.container{
+    background: url(../image/bg-repeat.jpg);
+    background-size: contain;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 12px 50px;
+}
+
+.container .mensagem{
+    width: 287px;  
+    color: #ffffff;
+}
+
+.container .mensagem .titulo{
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 12px;
+}
+
+.container .mensagem .paragrafo{
+    font-size: 15px;
+    font-weight: 400;   
+}
+
+.container .formulario{
+    width: 340px;
+    min-height: 378px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 20px 22px;
+    border-radius: 5px;
+}
+
+.container .formulario .campo-de-texto{
+    margin-bottom: 15px;
+}
+
+.container .formulario input{
+    width: 298px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    padding: 8px;
+    font-weight: 700;
+    outline: none;
+}
+
+.container .formulario input:last-child{
+    background-color: #3CCC87;
+    color: #ffffff;
+    border: 0;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.container .formulario textarea {
+    width: 298px;
+    height: 100px;
+    padding: 8px;
+    font-weight: 700;
+    font-size: 15px;    
+    border-radius: 5px;    
+    border: 1px solid #000;    
+    resize: none;
+    outline: none;
+}
+
+.container .formulario .aviso{
+    font-size: 15px;
+    font-weight: 400;
+    position: relative;
+    left: -7px;
+    margin-top: -15px;
+}
+
+.span-required{
+    display: none;
+    color: #F52E2E;
+    font-size: 8px;
+}

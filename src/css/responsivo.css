@@ -1,0 +1,11 @@
+@media(max-width: 770px){
+    .container{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .formulario{
+        width: 300px;
+        margin-top: 50px;
+    }
+}
